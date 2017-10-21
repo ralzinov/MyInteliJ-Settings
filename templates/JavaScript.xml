@@ -1,0 +1,30 @@
+<templateSet group="JavaScript">
+  <template name="csl" value="console.log($VALUE$)" description="console.log()" toReformat="false" toShortenFQNames="true">
+    <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="cse" value="console.error($VALUE$)" description="console.error()" toReformat="false" toShortenFQNames="true">
+    <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="cl" value="class $NAME$ {&#10;    constructor () {&#10;        $CONSTR$&#10;    }&#10;}" description="class template" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="CONSTR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JSX_HTML" value="false" />
+      <option name="JS_EXPRESSION" value="false" />
+    </context>
+  </template>
+  <template name="arf" value="($ARG$) =&gt; {&#10;    $BODY$&#10;}" description="arrow function" toReformat="false" toShortenFQNames="true">
+    <variable name="ARG" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="BODY" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+</templateSet>

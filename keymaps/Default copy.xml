@@ -1,0 +1,16 @@
+<keymap version="1" name="Default copy" parent="$default">
+  <action id="CompareTwoFiles" />
+  <action id="Diff.ShowDiff" />
+  <action id="Diff.UpdatedFiles" />
+  <action id="EditorDuplicate">
+    <keyboard-shortcut first-keystroke="alt d" />
+  </action>
+  <action id="FileChooser.GotoDesktop" />
+  <action id="SelectNextOccurrence">
+    <keyboard-shortcut first-keystroke="ctrl d" />
+  </action>
+  <action id="SendEOF" />
+  <action id="ShelvedChanges.Diff" />
+  <action id="Vcs.Log.ShowDiff" />
+  <action id="openAssertEqualsDiff" />
+</keymap>
