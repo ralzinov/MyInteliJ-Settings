@@ -1,6 +1,6 @@
 # WebstormSettings
 
-Color scheme: Sublime Slush&Poppies
-Font: Consolas 13
+- Color scheme: Sublime Slush&Poppies
+- Font: Consolas 13
 
-Safe write: Off
+- Safe write: Off
