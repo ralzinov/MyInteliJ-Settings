@@ -6,6 +6,9 @@
     <keyboard-shortcut first-keystroke="alt d" />
   </action>
   <action id="FileChooser.GotoDesktop" />
+  <action id="MoveTabRight">
+    <keyboard-shortcut first-keystroke="alt r" />
+  </action>
   <action id="ReformatCode">
     <keyboard-shortcut first-keystroke="alt f" />
   </action>
